@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+.div1{
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    transition: transform 1s;
+}
+.div2{
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    transition: transform 1s;
+}
+.div3{
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    transition: transform 1s;
+}
+.div1:hover{
+    transform: rotateX(180deg);
+}
+.div2:hover{
+    transform: rotateY(180deg);
+}
+.div3:hover{
+    transform: rotateZ(180deg);
+}

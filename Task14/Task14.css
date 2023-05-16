@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+    align-content: center;
+}
+.up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upbox1{
+    background-color: aqua;
+    width: 40px;
+    height: 150px;
+    animation-name: trans;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+.upbox2{
+    background-color: aqua;
+    width: 40px;
+    height: 200px;
+    margin-left: 40px;
+    animation-name: trans;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.upbox3{
+    background-color: aqua;
+    width: 40px;
+    height: 250px;
+    margin-left: 40px;
+    animation-name: trans;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.upbox4{
+    background-color: aqua;
+    width: 40px;
+    height: 200px;
+    margin-left: 40px;
+    animation-name: trans;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.upbox5{
+    background-color: aqua;
+    width: 40px;
+    height: 150px;
+    margin-left: 40px;
+    animation-name: trans;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.downbox1{
+    background-color: blue;
+    width: 40px;
+    height: 150px;
+    animation-name: trans;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.downbox2{
+    background-color: blue;
+    width: 40px;
+    height: 200px;
+    margin-left: 40px;
+    animation-name: trans;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.downbox3{
+    background-color: blue;
+    width: 40px;
+    height: 250px;
+    margin-left: 40px;
+    animation-name: trans;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+.downbox4{
+    background-color: blue;
+    width: 40px;
+    height: 200px;
+    margin-left: 40px;
+    animation-name: trans;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.downbox5{
+    background-color: blue;
+    width: 40px;
+    height: 150px;
+    margin-left: 40px;
+    animation-name: trans;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes trans{
+    0%{
+        height: 150px;
+    }
+    50%{
+        height: 300px;
+    }
+    100%{
+        height: 150px;
+    }
+}

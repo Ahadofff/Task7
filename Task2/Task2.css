@@ -1,0 +1,17 @@
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: gainsboro;
+    border: solid;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+.box:hover{
+    transition: all 3s;
+    transform: translateX(500px);
+    
+}

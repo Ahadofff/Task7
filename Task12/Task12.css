@@ -1,0 +1,22 @@
+div{
+    height: 300px;
+    width: 300px;
+    border: solid;
+    animation-name: box;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+@keyframes box {
+    0% {
+      background-color: green;
+    }
+    25% {
+      background-color: yellow;
+    }
+    50% {
+      background-color: violet;
+    }
+    100% {
+      background-color: red;
+    }
+  }

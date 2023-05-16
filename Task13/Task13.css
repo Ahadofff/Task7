@@ -1,0 +1,70 @@
+p{
+    font-size: 40px;
+}
+.anime{
+    border: solid;
+    width: 600px;
+    height: 100px;
+}
+.not{
+    border: solid;
+    width: 600px;
+    height: 100px;
+    display: flex;
+}
+.box1{
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+    animation-name: anime;
+    animation-duration: 3s;
+}
+.box2{
+    width: 120px;
+    height: 100%;
+    background-color: blue;
+}
+.box3{
+    margin-left: -120px;
+    width: 120px;
+    height: 100%;
+    background-color: blue;
+    transform: translateX(120px);
+    transition: all 0.5s ;
+}
+.box4{
+    width: 120px;
+    height: 100%;
+    background-color: blue;
+    transform: translateX(240px);
+    margin-left: -120px;
+    transition: all 0.5s;
+}
+.box5{
+    left: 0;
+    width: 120px;
+    height: 100%;
+    background-color: blue;
+    transform: translateX(360px);
+    margin-left: -120px;
+    transition: all 0.5s;
+    transition-delay: 1s;
+}
+.box6{
+    left: 0;
+    width: 120px;
+    height: 100%;
+    background-color: blue;
+    transform: translateX(480px);
+    margin-left: -120px;
+    transition: all 0.5s;
+    transition-delay: 1.5s;
+}
+@keyframes anime{
+    to{
+        width: 100%;
+    }
+    from{
+        width: 20%;
+    }
+}

@@ -1,0 +1,15 @@
+div{
+    border: green 5px solid;
+    width: 300px;
+    height: 100px;
+    color: green;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+    Transform:skewX(-10deg)
+}
+div:hover{
+    Transform:skewX(10deg)
+}
